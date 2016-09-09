@@ -1,0 +1,84 @@
+/* line 1, ../../compass/sass/navbar-static-top.scss */
+.navbar-static-top {
+  margin-bottom: 19px;
+  background-color: #add6e6;
+  border-bottom: 3px solid #98c6d9;
+  padding-right: 7%;
+  padding-left: 7%;
+}
+
+/* line 9, ../../compass/sass/navbar-static-top.scss */
+.navbar-brand {
+  color: #B10000;
+}
+/* line 11, ../../compass/sass/navbar-static-top.scss */
+.navbar-brand:hover {
+  color: #E50011 !important;
+}
+
+/* line 18, ../../compass/sass/navbar-static-top.scss */
+.navbar-default .nav-logo img {
+  width: 50px;
+  height: 42px;
+  margin-top: -10px;
+}
+/* line 23, ../../compass/sass/navbar-static-top.scss */
+.navbar-default .nav-font-white {
+  color: white !important;
+}
+/* line 26, ../../compass/sass/navbar-static-top.scss */
+.navbar-default .navbar-nav > li > a:hover {
+  color: #E50011 !important;
+}
+/* line 29, ../../compass/sass/navbar-static-top.scss */
+.navbar-default .navbar-nav > .open > a {
+  background-color: #c7e6f2;
+}
+/* line 31, ../../compass/sass/navbar-static-top.scss */
+.navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+  background-color: #c7e6f2;
+}
+/* line 36, ../../compass/sass/navbar-static-top.scss */
+.navbar-default .navbar-toggle {
+  background-color: #c4e3ee;
+  border-color: transparent !important;
+}
+/* line 39, ../../compass/sass/navbar-static-top.scss */
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #e2f5fc;
+}
+/* line 43, ../../compass/sass/navbar-static-top.scss */
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #B10000;
+}
+/* line 46, ../../compass/sass/navbar-static-top.scss */
+.navbar-default .navbar-toggle:hover .icon-bar {
+  background-color: #E50011;
+}
+/* line 50, ../../compass/sass/navbar-static-top.scss */
+.navbar-default .dropdown-menu > li > a:hover {
+  color: #fff;
+  background-color: #f56767;
+}
+
+/* line 56, ../../compass/sass/navbar-static-top.scss */
+.btn-info {
+  background-color: #6cb9da;
+  border: 1px solid #71b5d1;
+}
+/* line 59, ../../compass/sass/navbar-static-top.scss */
+.btn-info:hover {
+  background-color: #90d0eb;
+  border: 1px solid #90d0eb;
+}
+
+/* line 65, ../../compass/sass/navbar-static-top.scss */
+.btn-danger {
+  background-color: #f98686;
+  border-color: #f99d9d;
+}
+/* line 68, ../../compass/sass/navbar-static-top.scss */
+.btn-danger:hover {
+  background-color: #e83d1f;
+  border-color: #e33213;
+}

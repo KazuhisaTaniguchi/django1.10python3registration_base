@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/////////fontSizeベース16px////////
+
+@mixin fontsize($size: 24, $base: 16) {
+  font-size: $size + px;
+  font-size: ($size / $base) * 1rem;
+}
+
+@mixin font01{
+  font-family: "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック", sans-serif;
+}
+
+/////////////box-sizing/////////////
+@mixin box-sizing($type:border-box)
+ {
+ -webkit-box-sizing:$type;
+ -moz-box-sizing:$type;
+ box-sizing:$type;
+ }
+
+ /////////////border-radius/////////////
+ @mixin border-radius($type)
+ {
+ -webkit-border-radius:$type $type $type $type;
+ -moz-border-radius:$type $type $type $type;
+ border-radius:$type $type $type $type;
+ }
+
+ /////////////opacity/////////////
+
+  @mixin opacity($type:0.6)
+  {
+    filter:alpha(opacity=$type*100);
+    -moz-opacity: $type;
+    opacity: $type;
+  }
+/////////////レスポンシブ/////////////
+
+@mixin res($size){
+  @media only screen and (max-width: $size + "px") {
+    @content;
+  }
+}
